@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Protest+Guerrilla&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    height: 8vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #005dff;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+.nav-top{
+    display: flex;
+}
+.main-logo{
+    font-family: 'Protest Guerrilla', sans-serif;
+    height: 4vh;
+}
+nav ul{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.search-button{
+    margin-left: 0.5vw;
+    height: 30px;
+    width: 70px;
+    color: white;
+    background-color: #005dff;
+    border: 2px solid white;
+    border-radius: 7%;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.search-text{
+    width: 15vw;
+    height: 2.3vh;
+    border-radius: 5%;
+    padding: 0 12px;
+}
+nav ul li{
+    padding: 0 2.5vw;
+}
+a{
+    color: white;
+}
+nav ul li a:hover{
+    color: white;
+    font-weight: bolder;
+}
+.container{
+    width: 100vw;
+    height: 70vh;
+    margin-top: 8vh;
+    overflow: hidden;
+}
+.main-img{
+   width: 70vw;
+   height: 50vh;
+   position: relative;  
+   top: 2vh;
+   left: 15vw;
+}
+.mainimg{
+    height: 31vh;
+    width: 49vw;
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+    height: 45vh;
+    background-color: white;
+    display: flex;
+    overflow: scroll;
+}
+.card-container{
+    background-color: #005dff;
+}
+footer{
+    width: 100vw;
+    height: 12vh;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}

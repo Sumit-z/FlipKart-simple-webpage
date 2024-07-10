@@ -1,0 +1,57 @@
+.flex-all-center{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+h2{
+    padding: 2vh 4vw 2vh 2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    padding-top: 1vh;
+    font-weight: bolder;
+}
+.main-heading{
+    position: absolute;
+    bottom: 15vh;
+    right: 75vw;
+    height: 3vh;
+    width: 12vw;
+    display: inline-block;
+}
+.view-all-button{
+    position: absolute;
+    bottom: 15vh;
+    left: 88vw;
+    height: 40px;
+    width: 50px;
+    color: white;
+    background-color: #005dff;
+    border-radius: 7%;
+    border: 0;
+    font-size: 15px;
+}
+.view-all-button:hover{
+    cursor: pointer;
+}
+.discount{
+    color: greenyellow
+}
+.buy-now{
+    color: grey;
+}
+.card-item{
+    margin-top: 10vh;
+    margin-left: 5vw;
+    height: 8vh;
+    display: inline-block;
+    flex-direction: column;
+}
+.card-item:hover{
+    transform: scale(1.1);
+}
